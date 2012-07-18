@@ -27,11 +27,13 @@ body {
 --------------------------------------------------*/
 
 h2 {
-	font-family: 'Maven Pro', sans-serif;
+	font-family: 'GreatVibesRegular', sans-serif;
 	font-weight: 900;
-	font-size: 30px;
-	text-transform: uppercase;
-	color: #464545;
+	font-size: 40px;
+	letter-spacing: 10px;
+    text-shadow: 1px 1px 1px #787777;
+	filter: dropshadow(color=#787777, offx=1, offy=1);
+    color: #f9bbb5;
 }
 
 h3 {
@@ -114,10 +116,10 @@ span.subtitle {
 
 span.bullet {
 	display: inline-block;
-	font-size: 55px;
+	font-size: 52px;
     color: #fff;
 	font-weight: normal;
-	font-family: Baskerville, 'Maven Pro', serif;
+	font-family: sans-serif;
 }
 
 span.intro_line {
@@ -198,7 +200,7 @@ nav a:hover {
 
 .subheader_line {
 	background: url(../img/subheader_line.png) no-repeat;
-	width: 348px;
+	width: 310px;
 	height: 8px;
 	margin: 0 10px 5px 10px;
 	display: inline-block;
@@ -325,72 +327,6 @@ dt {
 	z-index: 500;
 }
 
-
-
-/*------------------------------------------------
-                    services
---------------------------------------------------*/
-
-#services {
-	width: 100%;
-	height: 630px;
-	background-color: #fff;
-	position: relative;
-	z-index: 400;
-	text-align: center;
-}
-
-.serv_icons {
-	margin: 80px 0 20px 0;
-}
-
-.serv_icons h3 {
-	margin: 18px 0 18px 0;
-}
-
-.serv_icons p {
-	color: #686868;
-	font-size: 17px;
-}
-
-.serv_icon1 {
-	background: url(../img/serv_icon1.png) no-repeat;
-	width: 181px;
-	height: 181px;
-	text-align: center;
-	margin: 0 auto;
-}
-
-.serv_icon2 {
-	background: url(../img/serv_icon2.png) no-repeat;
-	width: 181px;
-	height: 181px;
-	text-align: center;
-	margin: 0 auto;
-}
-
-.serv_icon3 {
-	background: url(../img/serv_icon3.png) no-repeat;
-	width: 181px;
-	height: 181px;
-	text-align: center;
-	margin: 0 auto;
-}
-
-.serv_icon4 {
-	background: url(../img/serv_icon4.png) no-repeat;
-	width: 181px;
-	height: 181px;
-	text-align: center;
-	margin: 0 auto;
-}
-
-
-.services_bg_bottom {
-}
-
-
-
 /*------------------------------------------------
                       about
 --------------------------------------------------*/
@@ -408,8 +344,8 @@ dt {
 	margin-top: 83px;
 }
 
-.about_pic {
-	background: url(../img/about_pic.jpg) no-repeat;
+.about_picture {
+	background: url(../img/manuela_pucciarini.jpg) no-repeat;
 	width: 266px;
 	height: 266px;
 	-webkit-box-shadow: 0px 0px 0px 7px #fff;
@@ -436,6 +372,7 @@ dt {
 
 .social {
 	margin-top: 30px;
+    text-align: center;
 }
 
 .social ul li {
@@ -450,81 +387,11 @@ dt {
 	display: inline-block;
 }
 
-.icn_facebook {
+.icn_google {
 	width: 52px;
 	height: 52px;
-	background: url(../img/icn_facebook.png) no-repeat 0 0;
+	background: url(../img/icn_google.png) no-repeat 0 0;
 	display: inline-block;
-}
-
-.icn_linkedin {
-	width: 50px;
-	height: 52px;
-	background: url(../img/icn_linkedin.png) no-repeat 0 0;
-	display: inline-block;
-}
-
-.icn_dribble {
-	width: 50px;
-	height: 52px;
-	background: url(../img/icn_dribble.png) no-repeat 0 0;
-	display: inline-block;
-}
-
-.sprite:hover {
-	background-position: 0 -52px;
-}
-
-/********** skills *********/
-
-.skills {
-	margin-top: 60px;
-}
-
-.skills ul li {
-	margin-bottom: 15px;
-}
-
-.skills p {
-	padding: 4px 0 0 10px;
-	color: #fff;
-	font-size: 15px;
-}
-
-.skill1 {
-	background: url(../img/skill1.png) no-repeat 0 0;
-	width: 242px;
-	height: 27px;
-}
-
-.skill2 {
-	background: url(../img/skill2.png) no-repeat 0 0;
-	width: 178px;
-	height: 27px;
-}
-
-.skill3 {
-	background: url(../img/skill3.png) no-repeat 0 0;
-	width: 225px;
-	height: 27px;
-}
-
-.skill4 {
-	background: url(../img/skill4.png) no-repeat 0 0;
-	width: 161px;
-	height: 27px;
-}
-
-.skill5 {
-	background: url(../img/skill5.png) no-repeat 0 0;
-	width: 138px;
-	height: 27px;
-}
-
-.skill6 {
-	background: url(../img/skill6.png) no-repeat 0 0;
-	width: 120px;
-	height: 27px;
 }
 
 .about_bg_bottom {
@@ -654,7 +521,7 @@ span.address {
 
 
 .contact_bg_bottom {
-	background: url(../img/services_bg_bottom.png) repeat-x;
+	background: url(../img/contact_bg_bottom.png) repeat-x;
 	width: 100%;
 	height: 13px;
 	position: relative;
@@ -680,6 +547,13 @@ footer {
 
 footer p {
 	padding: 25px 0 20px 0;
-	font-size: 16px;
 }
 
+p.copyright {
+    font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+    text-shadow: 1px 1px 1px #787777;
+	filter: dropshadow(color=#787777, offx=1, offy=1);
+    color: #333;
+}
