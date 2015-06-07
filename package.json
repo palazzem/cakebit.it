@@ -1,0 +1,21 @@
+{
+    "name": "cakebit.it",
+    "version": "1.0.0",
+    "description": "Cakebit static website",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@bitbucket.org:palazzem/static-cakebit.it.git"
+    },
+    "engines": {
+        "node": "0.12.x"
+    },
+    "author": "Emanuele Palazzetti",
+    "license": "BSD",
+    "dependencies": {
+        "express": "4.12.4"
+    }
+}
