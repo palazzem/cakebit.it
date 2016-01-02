@@ -9,7 +9,7 @@ practice.
 Deployment
 ----------
 
-This website is deployed at `cakebit.it`_ using `Docker`_ containers (NodeJS buildpack).
+This website was deployed at `cakebit.it`_ using `Docker`_ containers (NodeJS buildpack).
 
 .. _cakebit.it: http://cakebit.it/
 .. _Docker: https://www.docker.com/
